@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  background: #f6f7fb;
+  color: #1a1b1f;
+}
+
+header {
+  padding: 24px 32px 12px;
+  background: #ffffff;
+  border-bottom: 1px solid #e2e5ee;
+}
+
+header h1 {
+  margin: 0 0 8px;
+  font-size: 24px;
+}
+
+header p {
+  margin: 0;
+  color: #5c6270;
+}
+
+main {
+  padding: 24px 32px;
+}
+
+.tree {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tree-node {
+  background: #ffffff;
+  border: 1px solid #e2e5ee;
+  border-radius: 12px;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tree-node .node-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.toggle {
+  border: none;
+  background: #eef1f8;
+  color: #2c3350;
+  padding: 4px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.node-label {
+  font-weight: 600;
+}
+
+.node-path {
+  font-size: 12px;
+  color: #6c7385;
+}
+
+.metadata {
+  width: 100%;
+  min-height: 80px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #d6dbe7;
+  resize: vertical;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 13px;
+}
+
+.children {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.status {
+  font-size: 12px;
+  color: #4e7f4e;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "chronosyn-mini",
+  "version": "0.1.0",
+  "main": "main.js",
+  "description": "Minimal Electron + Node.js content browser with metadata",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^30.0.0"
+  }
+}
