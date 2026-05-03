@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "composite": true, // 允许被引用
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "lib": ["ESNext", "DOM", "DOM.Iterable"], // 这里有 DOM
+
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+
+    "jsx": "react-jsx",
+
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "src/render/**/*.ts",
+    "src/render/**/*.tsx",
+    "src/render/index.html",
+    "src/main/route.ts" // 需要包含后端路由的类型定义
+  ] 
+  // 显式指定只包含前端文件，避免包含 server.ts
+}

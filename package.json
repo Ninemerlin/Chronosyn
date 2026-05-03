@@ -1,0 +1,52 @@
+{
+  "name": "intent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist-electron/index.js",
+  "scripts": {
+    "dev": "pnpm vite",
+    "deve": "cross-env ELECTRON=true pnpm vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.29.2",
+  "dependencies": {
+    "@hono/node-server": "^1.19.14",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/react-router-dom": "^5.3.3",
+    "electron-window-state": "^5.0.3",
+    "hono": "^4.12.14",
+    "lucide-react": "^1.8.0",
+    "pixi-react": "^1.2.2",
+    "pixi.js": "^8.18.1",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-rnd": "^10.5.3",
+    "react-router": "^7.14.1",
+    "react-router-dom": "^7.14.1",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.12",
+    "@hono/vite-dev-server": "^0.25.1",
+    "@hono/zod-validator": "^0.7.6",
+    "@tailwindcss/vite": "^4.2.2",
+    "@types/node": "^25.6.0",
+    "@vitejs/plugin-react": "^6.0.1",
+    "asar": "^3.2.0",
+    "autoprefixer": "^10.5.0",
+    "concurrently": "^9.2.1",
+    "cross-env": "^10.1.0",
+    "electron": "^41.2.1",
+    "electron-builder": "^26.8.1",
+    "postcss": "^8.5.10",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.8",
+    "vite-plugin-electron": "^0.29.1",
+    "zod": "^4.3.6"
+  }
+}
