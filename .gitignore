@@ -379,5 +379,6 @@ release/
 _shadow/
 _docs/.obsidian/
 pnpm-lock.yaml
+NotMain/
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,node,react,python
