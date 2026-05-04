@@ -377,5 +377,7 @@ dist-electron/
 release/
 .vscode/
 _shadow/
+_docs/.obsidian/
+pnpm-lock.yaml
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,node,react,python
